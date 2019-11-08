@@ -13,15 +13,16 @@ set(COMPONENTS_SOURCES
 	src/components/CentralWidget/CentralWidget.cpp
 	src/components/ControlPanel/ControlPanel.cpp
 	src/components/Range/Range.cpp
+	src/components/ResultView/ResultView.cpp
 )
 
 include_directories(
 	src/components
 	src/components/MainWindow
 	src/components/CentralWidget
-	src/components
 	src/components/ControlPanel
 	src/components/Range
+	src/components/ResultView
 )
 
 set(SOURCES

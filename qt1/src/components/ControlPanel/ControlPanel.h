@@ -1,10 +1,10 @@
 #ifndef QTLESSON1_CONTROLPANEL_H
 #define QTLESSON1_CONTROLPANEL_H
 
-#include <QWidget>
-#include <QVBoxLayout>
-#include <QGroupBox>
-#include <QPushButton>
+#include <QtWidgets/QWidget>
+#include <QtWidgets/QVBoxLayout>
+#include <QtWidgets/QGroupBox>
+#include <QtWidgets/QPushButton>
 #include "Range.h"
 
 class ControlPanel : public QWidget
